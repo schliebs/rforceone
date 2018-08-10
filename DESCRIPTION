@@ -1,0 +1,28 @@
+Package: rforceone
+Title: ... 
+Version: 0.0.0.9000
+Authors@R: person("Marcel", "Schliebs", email = "m.schliebs@zeppelin-university.net", role = c("aut", "cre"))
+Description:
+  The ..
+Depends:
+  R (>= 3.4.1),
+  tidyverse
+License: MIT
+Encoding: UTF-8
+URL: https://www.schliebs.github.io/runR
+BugReports: https://www.github.com/schliebs/runR
+LazyData: true
+Imports:
+  tidyverse,
+  lubridate,
+  magrittr,
+RoxygenNote: 6.0.1
+Collate: 
+    'importFrom.R'
+    'elevPlot.R'
+    'regressions.R'
+    'update_yaml.R'
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+SystemRequirements: GNU make
